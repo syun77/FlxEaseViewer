@@ -54,7 +54,7 @@ class PlayState extends FlxState {
 
         var x = 296;
         var y = 0;
-        var dy = 16;
+        var dy = 20;
         var i = 0;
         for(item in items) {
             var btn = new FlxButton(x, y, cbs[i]);
